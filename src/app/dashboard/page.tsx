@@ -5,7 +5,7 @@ import { listBase } from '@/lib/airtable/api/base';
 import { Badge } from '@/components/ui/badge';
 import Link from 'next/link';
 
-export default async function () {
+export default async function DashboardPage() {
   const bases = await listBase();
   console.log(bases);
 
